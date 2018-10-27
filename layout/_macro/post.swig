@@ -333,7 +333,9 @@
     {#####################}
     {### END POST BODY ###}
     {#####################}
-
+     {% if post.evn === 'production' %}
+    {% include '../_scripts/pages/post-ad-detail.swig' %}
+    {% endif %}
     {% if theme.wechat_subscriber.enabled and not is_index %}
       <div>
         {% include 'wechat-subscriber.swig' %}

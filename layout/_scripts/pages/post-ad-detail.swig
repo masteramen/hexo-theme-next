@@ -1,0 +1,16 @@
+<div style="width:300px;height:250px;float:left;">
+    <!-- 300_250_1 -->
+    <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9477174171188196"
+        data-ad-slot="4142158067"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+<div style="width:300px;height:250px;float:left;">
+    <!-- 300-250-2 -->
+    <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9477174171188196"
+        data-ad-slot="5618891265"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>

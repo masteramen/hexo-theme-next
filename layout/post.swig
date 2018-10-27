@@ -30,6 +30,9 @@
 
 {% block sidebar %}
   {{ sidebar_template.render(true) }}
+       {% if post.evn === 'production' %}
+      {% include '_scripts/pages/post-ad.swig' %}
+      {% endif %}
 {% endblock %}
 
 {% block script_extra %}
