@@ -412,8 +412,8 @@ window.onload = function() {
     var e = document.getElementsByClassName("sfix")[0];
     if (window.pageYOffset && e.offset && window.pageYOffset > e.offset.top) {
       e.style.position = "fixed";
-      e.style.left = e.offset.left + "px";
-      e.style.right = "auto";
+      // e.style.left = e.offset.left + "px";
+      // e.style.right = "auto";
     } else {
       e.style.position = "absolute";
       e.style.left = "auto";
