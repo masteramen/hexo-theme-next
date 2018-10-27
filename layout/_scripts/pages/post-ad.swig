@@ -6,43 +6,5 @@
         (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
 </div>
-<script type="text/javascript">
-    function offset(target) {
-        var top = 0,
-            left = 0
-
-        while (target.offsetParent) {
-            top += target.offsetTop
-            left += target.offsetLeft
-            target = target.offsetParent
-        }
-
-        return {
-            top: top,
-            left: left,
-        }
-    }
-    window.onload = function () {
-        var e = document.getElementsByClassName('sfix')[0];
-        e.offset = offset(e);
-
-        window.onscroll = function (event) {
-            var e = document.getElementsByClassName('sfix')[0];
-            if (window.pageYOffset && e.offset && window.pageYOffset > e.offset.top) {
-                e.style.position = 'fixed';
-                e.style.left = e.offset.left + 'px';
-                e.style.right = 'auto';
-
-
-            } else {
-                e.style.position = 'absolute';
-                e.style.left = 'auto';
-                e.style.right = '-240px';
-
-            }
-        }
-    }
-
-</script>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </div>
