@@ -333,7 +333,11 @@
     {#####################}
     {### END POST BODY ###}
     {#####################}
+    
+    {% if not is_index %}
     {% include '../_scripts/pages/post-ad-detail.swig' %}
+    {% endif %}
+
     {% if theme.wechat_subscriber.enabled and not is_index %}
       <div>
         {% include 'wechat-subscriber.swig' %}
