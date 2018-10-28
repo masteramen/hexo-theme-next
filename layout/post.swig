@@ -30,7 +30,9 @@
 
 {% block sidebar %}
   {{ sidebar_template.render(true) }}
-      {% include '_scripts/pages/post-ad.swig' %}
+  {%if config.showAd %}
+  {% include '_scripts/pages/post-ad.swig' %}
+  {% endif %}
 {% endblock %}
 
 {% block script_extra %}

@@ -334,7 +334,7 @@
     {### END POST BODY ###}
     {#####################}
     
-    {% if not is_index %}
+    {% if not is_index and  config.showAd %}
     {% include '../_scripts/pages/post-ad-detail.swig' %}
     {% endif %}
 
